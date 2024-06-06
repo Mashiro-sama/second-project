@@ -1,5 +1,8 @@
-#Тестовая задача
-## По практикуму git
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-А дальше мне лень. Бе бе бе
-
+%% стрелка без текста для примера: 
+  A --> B;
+```
